@@ -30,3 +30,27 @@ Kampil PHP client library
    $data->vaNo = VA-NUMBER;
    $data->custName = CUSTOMER-NAME;
    ```
+
+-	Inquiry Virtual Account  
+   ```php
+   $data = new \CSI\Kampil\Client\Request\InquiryVARequest();
+   // required fields
+   $data->vaNo = VA-NUMBER;
+   ```   
+   
+-	Topup  
+   ```php
+   $data = new \CSI\Kampil\Client\Request\TopupRequest();
+   // required fields
+   $data->vaNo = VA-NUMBER;
+   $data->amount = TOPUP-AMOUNT;
+   ```
+
+-	Transfer  
+   ```php
+   $data = new \CSI\Kampil\Client\Request\TransferRequest();
+   // required fields
+   $data->fromAccount = FROM-VA-NUMBER;
+   $data->toAccount = TO-VA-NUMBER;
+   $data->amount = TRANSFER-AMOUNT;
+   ```

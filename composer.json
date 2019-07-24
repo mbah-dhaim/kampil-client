@@ -1,7 +1,7 @@
 {
 	"name" : "mbah-dhaim/kampil-client",
 	"description" : "CSI Kampil php client",
-	"type" : "project",
+	"type" : "library",
 	"homepage" : "http://kampil.cs-indonesia.com",
 	"license" : "MIT",
 	"authors" : [{

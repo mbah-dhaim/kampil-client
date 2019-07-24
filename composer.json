@@ -1,0 +1,28 @@
+{
+	"name" : "mbah-dhaim/kampil-client",
+	"description" : "CSI Kampil php client",
+	"type" : "project",
+	"homepage" : "http://kampil.cs-indonesia.com",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Mahmud A Hakim",
+			"email" : "mas.dhaim@gmail.com",
+			"homepage" : "http://cs-indonesia.com"
+		}
+	],
+	"keywords" : [
+		"php",
+		"kampil",
+		"cerdas",
+		"solusi",
+		"indonesia"
+	],
+	"autoload" : {
+		"psr-4" : {
+			"CSI\\Kampil\\" : "src"
+		}
+	},
+	"require" : {
+		"lcobucci/jwt" : "~3.3"
+	}
+}

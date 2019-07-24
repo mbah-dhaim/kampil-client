@@ -80,7 +80,7 @@ class ClientProcessor
      *
      * @return string
      */
-    protected function buildPayload()
+    public function buildPayload()
     {
         return JWT::of()->getToken($this->getSetting()
             ->getIssuerApiKey());
